@@ -15,7 +15,7 @@
 }
 
 .page-header .top-bar-container a {
-    height: 3.2rem;
+    height: 3rem;
     transition: opacity 0.2s;
 }
 
@@ -31,13 +31,21 @@
     width: 90%;
     margin: 0 auto;
     position: relative;
-    margin: 3.2re, auto;
+    margin: 3.2rem, auto;
 }
 
 .page-header .header-content strong {
     font: 700 3.6rem Archivo;
     line-height: 4.2rem;
     color: var(--color-title-in-primary);
+}
+
+.page-header .header-content p {
+    max-width: 30rem;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: var(--color-text-in-primary);
+    margin-top: 2.4rem;
 }
 
 @media (min-width: 700px) {
