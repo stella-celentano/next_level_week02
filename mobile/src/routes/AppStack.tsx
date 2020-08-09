@@ -8,7 +8,7 @@ import StudyTabs from './StudyTabs';
 
 const { Navigator, Screen } = createStackNavigator();
 
-function AppSctack() {
+function AppStack() {
     return (
         <NavigationContainer>
             <Navigator screenOptions={{ headerShown: false }}>
@@ -20,4 +20,4 @@ function AppSctack() {
     );
 }
 
-export default AppSctack;
+export default AppStack;
